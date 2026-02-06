@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Championship</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-900">
+
+<header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold text-red-600">F1 Site</a>
+
+        <nav class="hidden md:flex mx-auto space-x-6 font-medium">
+            <a href="/teams">Teams</a>
+            <a href="/drivers">Drivers</a>
+            <a href="/champions">Champions</a>
+            <a href="/seo">Seo</a>
+        </nav>
+    </div>
+
+    <div class="md:hidden border-t">
+        <div class="grid grid-cols-1 text-center">
+            <a href="/teams" class="py-2 font-medium">Teams</a>
+            <a href="/drivers" class="py-2 font-medium">Drivers</a>
+            <a href="/champions" class="py-2 font-medium">Champions</a>
+            <a href="/seo" class="py-2 font-medium">Seo</a>
+        </div>
+    </div>
+</header>
+
+<div class="max-w-7xl mx-auto grid grid-cols-12 gap-6 px-6 py-8">
+
+    <aside class="hidden md:block col-span-2 bg-white p-4 shadow rounded">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+    </aside>
+
+    <main class="col-span-12 md:col-span-8 bg-white p-6 shadow rounded">
+
+        <a href="/" class="inline-block mb-4 text-sm font-medium">
+            ← Back
+        </a>
+
+        <h2 class="text-2xl font-bold mb-6 border-b pb-2">
+            Formula 1 World Champions
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+
+            <section class="md:col-span-7 border rounded p-4">
+                <h3 class="font-semibold mb-4">Past Seasons</h3>
+
+                <ul class="space-y-2 text-sm">
+                    <li class="flex justify-between border-b pb-1">
+                        <span>2025</span>
+                        <span>Lando Norris (ENG)</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-1">
+                        <span>2024</span>
+                        <span>Max Verstappen (NED)</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-1">
+                        <span>2023</span>
+                        <span>Max Verstappen (NED)</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-1">
+                        <span>2022</span>
+                        <span>Max Verstappen (NED)</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-1">
+                        <span>2021</span>
+                        <span>Max Verstappen (NED)</span>
+                    </li>
+                    <li class="flex justify-between">
+                        <span>2020</span>
+                        <span>Lewis Hamilton (ENG)</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="md:col-span-5 border rounded p-4 text-sm text-gray-600">
+                <p class="mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <aside class="hidden md:block col-span-2 space-y-6">
+        <div class="bg-white h-40 shadow rounded flex items-center justify-center">
+            Ad Space
+        </div>
+        <div class="bg-white h-40 shadow rounded flex items-center justify-center">
+            Ad Space
+        </div>
+        <div class="bg-white h-40 shadow rounded flex items-center justify-center">
+            Ad Space
+        </div>
+    </aside>
+
+</div>
+
+<footer class="bg-white shadow mt-10">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row md:justify-between md:items-center text-sm text-gray-600 space-y-3 md:space-y-0">
+        <span class="text-center md:text-left">© 2026 F1 Championship</span>
+    </div>
+</footer>
+
+</body>
+</html>

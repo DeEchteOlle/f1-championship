@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers 2026</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-800">
+
+<header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold text-red-600">F1 Site</a>
+
+        <nav class="hidden md:flex mx-auto space-x-6 font-medium">
+            <a href="/teams">Teams</a>
+            <a href="/drivers">Drivers</a>
+            <a href="/champions">Champions</a>
+            <a href="/seo">Seo</a>
+        </nav>
+    </div>
+
+    <div class="md:hidden border-t">
+        <div class="grid grid-cols-1 text-center">
+            <a href="/teams" class="py-2 font-medium">Teams</a>
+            <a href="/drivers" class="py-2 font-medium">Drivers</a>
+            <a href="/champions" class="py-2 font-medium">Champions</a>
+            <a href="/seo" class="py-2 font-medium">Seo</a>
+        </div>
+    </div>
+</header>
+
+<div class="max-w-7xl mx-auto grid grid-cols-12 gap-6 px-6 py-8">
+
+    <aside class="hidden md:block col-span-2 bg-white p-4 shadow rounded">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.
+    </aside>
+
+    <main class="col-span-12 md:col-span-8 bg-white p-6 shadow rounded">
+
+        <a href="/" class="inline-block mb-4 text-sm font-medium">
+            ← Back
+        </a>
+
+        <h2 class="text-xl font-bold mb-6">F1 Drivers 2026</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+            <div class="border rounded h-14 flex items-center justify-center">Max Verstappen</div>
+            <div class="border rounded h-14 flex items-center justify-center">Isack Hadjar</div>
+            <div class="border rounded h-14 flex items-center justify-center">Kimi antonelli</div>
+            <div class="border rounded h-14 flex items-center justify-center">George Russell</div>
+
+            <div class="border rounded h-14 flex items-center justify-center">Charles Leclerc</div>
+            <div class="border rounded h-14 flex items-center justify-center">Lewis Hamilton</div>
+            <div class="border rounded h-14 flex items-center justify-center">Lando Norris</div>
+            <div class="border rounded h-14 flex items-center justify-center">Oscar Piastri</div>
+
+            <div class="border rounded h-14 flex items-center justify-center">Fernando Alonso</div>
+            <div class="border rounded h-14 flex items-center justify-center">Lance Stroll</div>
+            <div class="border rounded h-14 flex items-center justify-center">Pierre Gasly</div>
+            <div class="border rounded h-14 flex items-center justify-center">Franco Colapinto</div>
+
+            <div class="border rounded h-14 flex items-center justify-center">Alex Albon</div>
+            <div class="border rounded h-14 flex items-center justify-center">Carlos Sainz</div>
+            <div class="border rounded h-14 flex items-center justify-center">Liam Lawson</div>
+            <div class="border rounded h-14 flex items-center justify-center">Arvid lindblad</div>
+
+            <div class="border rounded h-14 flex items-center justify-center">Valtteri Bottas</div>
+            <div class="border rounded h-14 flex items-center justify-center">Sergio Pérez</div>
+            <div class="border rounded h-14 flex items-center justify-center">Gabriel Borteleto</div>
+            <div class="border rounded h-14 flex items-center justify-center">Nico Hülkenberg</div>
+
+            <div class="col-span-2 md:col-span-4 flex flex-col md:flex-row justify-center gap-6">
+                <article class="border rounded h-14 w-full md:w-1/2 flex items-center justify-center">Oliver Bearman</article>
+                <article class="border rounded h-14 w-full md:w-1/2 flex items-center justify-center">Estban Ocon</article>
+            </div>
+
+        </div>
+    </main>
+
+    <aside class="hidden md:block col-span-2 space-y-6">
+        <div class="bg-white h-40 shadow rounded flex items-center justify-center">
+            Ad Space
+        </div>
+        <div class="bg-white h-40 shadow rounded flex items-center justify-center">
+            Ad Space
+        </div>
+        <div class="bg-white h-40 shadow rounded flex items-center justify-center">
+            Ad Space
+        </div>
+    </aside>
+
+</div>
+
+<footer class="bg-white shadow mt-10">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row md:justify-between md:items-center text-sm text-gray-600 space-y-3 md:space-y-0">
+        <span class="text-center md:text-left">© 2026 F1 Championship</span>
+    </div>
+</footer>
+
+</body>
+</html>
