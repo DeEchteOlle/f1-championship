@@ -22,3 +22,8 @@ Route::get('/seo', function () {
     return view('seo');
 });
 
+Route::get('/screenshots', function () {
+    return view('screenshots');
+});
+
+
